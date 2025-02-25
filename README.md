@@ -16,4 +16,3 @@ A simple note-taking application built with **React.js** and **Express.js**. Thi
 - **State Management:** React Hooks
 - **HTTP Requests:** Axios
 
-## 📂 Project Structure
