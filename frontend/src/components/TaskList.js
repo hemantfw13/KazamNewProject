@@ -18,6 +18,7 @@ const TaskList = () => {
     return (
         <div className="task-container">
             <TaskInput onTaskAdded={getTasks} /> 
+            <p style={{marginTop:"10px"}}><b>Notes</b></p>
             <ul className="task-list">
                 {tasks.map((task, index) => (
                     <TaskItem key={index} task={task} />

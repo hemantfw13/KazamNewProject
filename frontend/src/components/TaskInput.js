@@ -20,7 +20,15 @@ const TaskInput = ({ onTaskAdded }) => {
                 value={task}
                 onChange={(e) => setTask(e.target.value)}
             />
-            <button onClick={handleAddTask}>➕ Add</button>
+            <button onClick={handleAddTask}> 
+                
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="12" cy="12" r="11.5" fill="white" stroke="#914c1e" stroke-width="2"/>
+    
+    <path d="M12 6v12M6 12h12" stroke="#914c1e" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
+
+                 Add</button>
         </div>
     );
 };
