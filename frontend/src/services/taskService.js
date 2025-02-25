@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/tasks";
+const API_URL = "https://kazamnewprojectbackend.onrender.com/api/tasks";
 
 export const fetchTasks = async () => {
     try {
